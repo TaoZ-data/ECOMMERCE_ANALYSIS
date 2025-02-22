@@ -1,0 +1,44 @@
+{
+  "validation_results": {
+    "missing_columns": [],
+    "type_issues": {
+      "R_score": {
+        "expected": "int64",
+        "actual": "int32"
+      },
+      "F_score": {
+        "expected": "int64",
+        "actual": "int32"
+      },
+      "M_score": {
+        "expected": "int64",
+        "actual": "int32"
+      },
+      "RFM_Score": {
+        "expected": "int64",
+        "actual": "int32"
+      }
+    },
+    "null_counts": {
+      "CustomerID": 0,
+      "Frequency": 0,
+      "Monetary": 0,
+      "Total_Items": 0,
+      "Unique_Products": 0,
+      "Country": 0,
+      "Avg_Transaction_Value": 0,
+      "LastPurchaseDate": 0,
+      "FirstPurchaseDate": 0,
+      "Customer_Lifetime_Days": 0,
+      "Recency": 0,
+      "R_score": 0,
+      "F_score": 0,
+      "M_score": 0,
+      "RFM_Score": 0
+    }
+  },
+  "summary_stats": {
+    "rfm_summary": "      Recency  Frequency  Monetary\nmean  4915.58       3.92    845.54\nmin   4823.00       1.00      1.70\nmax   5196.00     193.00  70372.02",
+    "customer_count": 4146
+  }
+}
