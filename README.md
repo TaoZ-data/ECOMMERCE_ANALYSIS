@@ -11,7 +11,25 @@ A comprehensive analytics solution for e-commerce customer behavior analysis, se
 - **Quality Reports**: Detailed data quality and analysis reports
 
 Project Structure
-![image](https://github.com/user-attachments/assets/3e0fa655-b09e-4fac-b8b2-e61d001377c3)
+ecommerce_analysis/
+├── data/                      # Data files and analysis outputs
+│   ├── customer_clusters.csv
+│   ├── customer_segments.csv
+│   ├── dashboard_data.json
+│   ├── data_quality_report.json
+│   ├── data.csv
+├── logs/                      # Log files
+├── src/                      # Source code
+│   ├── __init__.py
+│   ├── customer_segmentation.py
+│   ├── data_processing.py
+│   └── rfm_analysis.py
+├── visualizations/           # Visualization HTML files
+│   ├── geographic_distribution.html
+│   ├── rfm_distributions.html
+│   └── temporal_patterns.html
+├── main.py                  # Main execution script
+└── requirements.txt         # Project dependencies
 
 Requirements
 
